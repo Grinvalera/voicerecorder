@@ -18,10 +18,11 @@ opts = {
 		"time":('what time is it now', 'current time'),
 		"music":('music', 'open music'),
 		"mem":('show meme', 'show picture'),
-		"joke":('joke'),
+		"joke":('joke', 'anecdote'),
 		"google":('google', 'doogle', 'gle'),
 		"youtube":('youtube', 'youtabe'),
 		"git":('github', 'git'),
+		"mood":('how are you?', 'whats up?', 'how do you feel')
 	}
 }
 
@@ -96,8 +97,16 @@ def execute_cmd(cmd):
 		speak('Opended github')
 		webbrowser.open('https://github.com/Grinvalera')
 
+	elif cmd == 'mood':
+		mymood = ['Things are good', 'All perfectly', 'Nice!', 'I m nice']
+		speak(random.choice(mymood))
 
-
+	elif cmd == 'joke':
+		myjoke = ['the fish drowned',
+				  'the mermaid sat on the twine',
+				  'gingerbread man hanged himself']
+		speak(random.choice(myjoke))
+		speak('ha-ha-ha-ha-ha')
 
 #Запуск Michael
 r = sr.Recognizer()
@@ -105,8 +114,20 @@ m = sr.Microphone(device_index = 6)
  
 speak_engine = pyttsx3.init()
 
-speak("Hello, my creator! How are you?")
-speak("You need help?")
+def greetMe():
+    currentH = int(datetime.datetime.now().hour)
+    if currentH >= 0 and currentH < 12:
+        speak('Good Morning! My creator!')
+
+    if currentH >= 12 and currentH < 18:
+        speak('Good Afternoon! My creator!')
+
+    if currentH >= 18 and currentH !=0:
+        speak('Good Evening! My creator!')
+
+greetMe()
+
+speak("Michael listening to")
 
 stop_listening = r.listen_in_background(m, callback)
 while True: time.sleep(0.1)
