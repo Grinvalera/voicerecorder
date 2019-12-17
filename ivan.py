@@ -1,4 +1,4 @@
-#bot Ivan
+#bot Michael
 # -*- coding: utf-8 -*-
 import os
 import time
@@ -6,17 +6,22 @@ import speech_recognition as sr
 from fuzzywuzzy import fuzz
 import pyttsx3
 import datetime
-import pygame
+import webbrowser
+import random
+import subprocess
 
 
 opts = {
 	"name":('Michael','Micle','Misha'),
-	"tbr":('tell me','show me','turn on'),
+	"tbr":('tell me','show me','turn on', 'open'),
 	"cmds": {
 		"time":('what time is it now', 'current time'),
 		"music":('music', 'open music'),
 		"mem":('show meme', 'show picture'),
-		"joke":('joke')
+		"joke":('joke'),
+		"google":('google', 'doogle', 'gle'),
+		"youtube":('youtube', 'youtabe'),
+		"git":('github', 'git'),
 	}
 }
 
@@ -70,10 +75,31 @@ def execute_cmd(cmd):
 		now = datetime.datetime.now()
 		speak("Now " + str(now.hour) + ":" + str(now.minute))
 
-	if cmd == 'music':
-		os.system('Музыка\\1.mp3')
+	elif cmd == 'music':
+		music_folder = '#!/sh ~/programs/Music/'
+		music = ['music1', 'music2', 'music3', 'music4']
+		random_music = music_folder + random.choice(music) + '.mp3'
+		if subprocess.Popen(random_music, shell=True):
+			speak('Okay, here is your music! Enjoy!')
+		else:
+			speak('sorry')
 
-#Запуск Вани
+	elif cmd == 'google':
+		speak("Opened google")
+		webbrowser.open("https://www.google.com/")
+
+	elif cmd == 'youtube':
+		speak('Opened youtube')
+		webbrowser.open('https://www.youtube.com/')
+
+	elif cmd == 'github':
+		speak('Opended github')
+		webbrowser.open('https://github.com/Grinvalera')
+
+
+
+
+#Запуск Michael
 r = sr.Recognizer()
 m = sr.Microphone(device_index = 6)
  
