@@ -1,4 +1,6 @@
 asn1crypto==0.24.0
+backports.functools-lru-cache==1.6.1
+beautifulsoup4==4.8.1
 cryptography==2.1.4
 enum34==1.1.6
 fuzzywuzzy==0.3.0
@@ -6,12 +8,19 @@ idna==2.6
 ipaddress==1.0.17
 keyring==10.6.0
 keyrings.alt==3.0
+lxml==4.4.2
+mp3play==0.1.15
 Pillow==6.2.1
 PyAudio==0.2.11
 pycrypto==2.6.1
+pygame==1.9.6
 pygobject==3.26.1
+python-vlc==3.0.7110
 pyttsx3==2.7
 pyxdg==0.25
+rhvoice-wrapper==0.0.1
 SecretStorage==2.3.1
 six==1.11.0
+soupsieve==1.9.5
 SpeechRecognition==3.8.1
+youtube-dl==2019.11.28

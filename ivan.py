@@ -1,15 +1,23 @@
 #bot Michael
 # -*- coding: utf-8 -*-
 import os
+import sys
 import time
 import speech_recognition as sr
-from fuzzywuzzy import fuzz
 import pyttsx3
 import datetime
 import webbrowser
 import random
 import subprocess
-
+from fuzzywuzzy import fuzz
+import opts
+import youtube_dl
+import vlc
+import urllib2
+from bs4 import BeautifulSoup as soup
+import urllib
+import smtplib
+from pygame import mixer
 
 opts = {
 	"name":('Michael','Micle','Misha'),
@@ -49,6 +57,7 @@ def callback(recognizer, audio):
 				cmd = cmd.replace(x, "").strip()
 
 			#распознаем и делаем команды
+			#cmd = " "
 			cmd = recognize_cmd(cmd)
 			execute_cmd(cmd['cmd'])
 
@@ -77,13 +86,47 @@ def execute_cmd(cmd):
 		speak("Now " + str(now.hour) + ":" + str(now.minute))
 
 	elif cmd == 'music':
-		music_folder = '#!/sh ~/programs/Music/'
-		music = ['music1', 'music2', 'music3', 'music4']
-		random_music = music_folder + random.choice(music) + '.mp3'
-		if subprocess.Popen(random_music, shell=True):
-			speak('Okay, here is your music! Enjoy!')
-		else:
-			speak('sorry')
+		#music_folder = '#!/sh ~/programs/Music/'
+		#music = ['music1', 'music2', 'music3', 'music4']
+		#random_music = music_folder + random.choice(music) + '.mp3'
+		#if subprocess.Popen(random_music, shell=True):
+		#	speak('Okay, here is your music! Enjoy!')
+		#else:
+		#	speak('sorry')
+		path = vlc.MediaPlayer('/home/valeriy/programs/Music') 
+		folder = path 
+		#for the_file in os.listdir(folder): 
+		#	player = vlc.MediaPlayer(the_file)
+		#	file_path = os.path.join(folder, the_file) 
+		try: 
+			if os.path.isfile(file_path): 
+				os.unlink(file_path) 
+				player.play()
+				speak('Okay, here is your music! Enjoy!')
+		except Exception as e: 
+			print(e) 
+			speak('What song shall I play Sir?') 
+			cmd = recognize_cmd(cmd)
+			if cmd: 
+				flag = 0 
+				url = "https://www.youtube.com/results?search_query=" + 'Say+say+say'
+				response = urllib2.urlopen(url) 
+				html = response.read() 
+				soup1 = soup(html,"lxml") 
+				url_list = [] 
+				for vid in soup1.findAll(attrs={'class':'yt-uix-tile-link'}): 
+					if ('https://www.youtube.com' + vid['href']).startswith("https://www.youtube.com/watch?v="): 
+						flag = 1 
+						final_url = 'https://www.youtube.com' + vid['href'] 
+						url_list.append(final_url) 
+						url = url_list[0] 
+						ydl_opts = {} 
+						os.chdir(path) 
+						path.play()
+						with youtube_dl.YoutubeDL(ydl_opts) as ydl: ydl.download([url]) 
+						play() 
+						if flag == 0: 
+							speak('I have not found anything in Youtube ') 
 
 	elif cmd == 'google':
 		speak("Opened google")
@@ -116,18 +159,21 @@ speak_engine = pyttsx3.init()
 
 def greetMe():
     currentH = int(datetime.datetime.now().hour)
-    if currentH >= 0 and currentH < 12:
+    if currentH >= 6 and currentH < 12:
         speak('Good Morning! My creator!')
 
     if currentH >= 12 and currentH < 18:
         speak('Good Afternoon! My creator!')
 
-    if currentH >= 18 and currentH !=0:
+    if currentH >= 18 and currentH != 0:
         speak('Good Evening! My creator!')
+
+    if currentH >= 0 and currentH < 6:
+    	speak('Good Night! My creator!')
 
 greetMe()
 
 speak("Michael listening to")
 
 stop_listening = r.listen_in_background(m, callback)
-while True: time.sleep(0.1)
+while True: time.sleep(0.5)
