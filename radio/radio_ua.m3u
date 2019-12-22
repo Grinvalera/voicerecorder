@@ -1,0 +1,591 @@
+#EXTM3U
+#EXTINF:0,Add NEW Radio station
+http://radio.posle.info/add_radio.jpeg
+#EXTINF:-1 group-title="Украина",100.0 FM Черновцы
+http://185.25.117.170:8000/live
+#EXTINF:-1 group-title="Украина",100.0FM Chernivtsi - Буковинська хвиля
+http://100.cv.ua:8000/live
+#EXTINF:-1 group-title="Украина",100.8 FM - lviv wave
+http://onair.lviv.fm:8000/lviv.fm
+#EXTINF:-1 group-title="Украина",7 Rays Radio
+http://7rays.stream.laut.fm/7rays
+#EXTINF:-1 group-title="Украина",Best FM
+http://178.209.65.89:8080/best_low
+#EXTINF:-1 group-title="Украина",Best FM Донецк 105.5 FM
+http://radio.bestfm.fm/bestfm
+#EXTINF:-1 group-title="Украина",Best FM Мариуполь 102.8 FM
+http://radio.bestfm.fm/bestfm_mp3
+#EXTINF:-1 group-title="Украина",Best FM Харьков 104.0 FM
+http://radio.bestfm.fm/best_kharkov_mp3
+#EXTINF:-1 group-title="Украина",BIG Radio
+http://s02.radio-tochka.com:6840/radio
+#EXTINF:-1 group-title="Украина",Christian radio Tochka
+http://hopechannel.info:7557/r64
+#EXTINF:-1 group-title="Украина",Coma FM
+http://stream.radio.co/s4360dbc20/listen
+#EXTINF:-1 group-title="Украина",DJ FM 96.8
+http://media2.brg.ua:8000/djfm_h
+#EXTINF:-1 group-title="Украина",DJFM
+http://media.brg.ua:8010/;stream.nsv
+#EXTINF:-1 group-title="Украина",DJsRadio
+http://djsradio.com.ua:8000/listen
+#EXTINF:-1 group-title="Украина",Donbass FM
+http://91.210.178.57:8010/
+#EXTINF:-1 group-title="Украина",Duzhe fm
+http://ua.uar.net:8000/duzhefm
+#EXTINF:-1 group-title="Украина",Dzen Garden Radio
+http://185.65.245.104:8000/live
+#EXTINF:-1 group-title="Украина",ERA FM
+http://91.203.12.117:8000/SUMY-128-mp3
+#EXTINF:-1 group-title="Украина",Europa Plus
+http://cast.radiogroup.com.ua:8000/europaplus
+#EXTINF:-1 group-title="Украина",Feel FM - 102.2FM
+http://62.80.190.246:8000/Feel
+#EXTINF:-1 group-title="Украина",FM Галичина
+http://ua.uar.net:8000/galychyna
+#EXTINF:-1 group-title="Украина",Gikradio.com
+http://77.120.162.12:8000/live128
+#EXTINF:-1 group-title="Украина",GorodFM Krivoy Rog 105-2
+http://listen2.myradio24.com:9000/8338
+#EXTINF:-1 group-title="Украина",Hit FM - Disco 90
+http://online-hitfm2.tavrmedia.ua/HitFM_Disco90
+#EXTINF:-1 group-title="Украина",Hit fm - Romantic Collection
+http://online-hitfm2.tavrmedia.ua/HitFM_Romantic_32?
+#EXTINF:-1 group-title="Украина",Hit FM Best HD
+http://online-hitfm2.tavrmedia.ua/HitFM_Best_HD
+#EXTINF:-1 group-title="Украина",Hit FM Disco 90
+http://online-hitfm2.tavrmedia.ua/HitFM_Disco90
+#EXTINF:-1 group-title="Украина",Hit FM Happy Ranok
+http://195.95.206.17:8000/HitFM_HappyRanok
+#EXTINF:-1 group-title="Украина",Hit FM HD
+http://online-hitfm.tavrmedia.ua/HitFM_HD
+#EXTINF:-1 group-title="Украина",Hit FM Top HD
+http://online-hitfm2.tavrmedia.ua/HitFM_Top_HD
+#EXTINF:-1 group-title="Украина",Hit FM Ukr HD
+http://online-hitfm2.tavrmedia.ua/HitFM_Ukr_HD
+#EXTINF:-1 group-title="Украина",Hit FM Океан Ельзи
+http://online-hitfm2.tavrmedia.ua/HitFM_OE_32?
+#EXTINF:-1 group-title="Украина",HitFM Happy Ranok
+http://online-hitfm2.tavrmedia.ua/HitFM_HappyRanok_32?
+#EXTINF:-1 group-title="Украина",HitFM_Best90
+http://online-hitfm2.tavrmedia.ua/HitFM_Best90_32?
+#EXTINF:-1 group-title="Украина",HitFM_Michael Jackson
+http://online-hitfm2.tavrmedia.ua/HitFM_MJ_32?
+#EXTINF:-1 group-title="Украина",Holy Blood Family Radio
+http://93.126.84.240:8000/radio
+#EXTINF:-1 group-title="Украина",HomyakFM
+http://188.190.223.41:8000/;stream.mp3
+#EXTINF:-1 group-title="Украина",ISS FM - Ukrainian
+http://online-kissfm2.tavrmedia.ua/KissFM_Ukr
+#EXTINF:-1 group-title="Украина",JAM FM
+http://cast.radiogroup.com.ua:8000/jamfm
+#EXTINF:-1 group-title="Украина",Kerch Humor
+http://193.111.127.151:8000/Sevastopol_Humor
+#EXTINF:-1 group-title="Украина",Kiev98FM_UkrDance
+http://217.76.201.26:8004/mp3_96
+#EXTINF:-1 group-title="Украина",Kiss FM - Deep
+http://online-kissfm.tavrmedia.ua/KissFM_deep
+#EXTINF:-1 group-title="Украина",Kiss FM - Deep
+http://online-kissfm.tavrmedia.ua/KissFM_Deep
+#EXTINF:-1 group-title="Украина",Kiss FM - Digital
+http://online-kissfm.tavrmedia.ua/KissFM_digital
+#EXTINF:-1 group-title="Украина",Kiss FM - Digital
+http://online-kissfm.tavrmedia.ua/KissFM_Digital
+#EXTINF:-1 group-title="Украина",Kiss FM - Drum &amp; Bass
+http://online-kissfm.tavrmedia.ua/KissFM_dnb
+#EXTINF:-1 group-title="Украина",Kiss FM - Radio obozrevatel -106.5
+http://music.myradio.ua/kissfm128.mp3
+#EXTINF:-1 group-title="Украина",Kiss FM - Trance
+http://online-kissfm.tavrmedia.ua/KissFM_trance
+#EXTINF:-1 group-title="Украина",KISS FM Ukraine - The Best Dance Radio
+http://online-kissfm.tavrmedia.ua/KissFM_Live?type=.flv
+#EXTINF:-1 group-title="Украина",KISSFM Digital
+http://stream.kissfm.ua:8000/KissFM_digital?38
+#EXTINF:-1 group-title="Украина",Klassnoe radio 103.9 FM Славянск Донецк обл
+http://176.101.223.52:8000/klassnoe
+#EXTINF:-1 group-title="Украина",kometa.fm\donetsk
+http://donetsk.kometa.fm:8000/kometa_donetsk_inet.ogg
+#EXTINF:-1 group-title="Украина",Kredens Cafe Radio
+http://stream.mjoy.ua:8000/kredens-cafe-radio
+#EXTINF:-1 group-title="Украина",LADA 1077
+http://195.248.234.146:10000/radio2
+#EXTINF:-1 group-title="Украина",Lada.FM
+http://195.248.234.146:8000/radio1
+#EXTINF:-1 group-title="Украина",Live FM
+http://livefm.no-ip.org:8880/livefm_128
+#EXTINF:-1 group-title="Украина",Lounge FM
+http://cast.loungefm.com.ua/loungefm
+#EXTINF:-1 group-title="Украина",Lounge FM Acoustic
+http://cast.loungefm.com.ua/acoustic128
+#EXTINF:-1 group-title="Украина",Lounge FM Chill Out
+http://cast.loungefm.com.ua/chillout128
+#EXTINF:-1 group-title="Украина",Lounge FM Terrace
+http://cast.loungefm.com.ua/terrace128
+#EXTINF:-1 group-title="Украина",LoungeFM  - Chill Out
+http://cast.loungefm.com.ua/chillout128?
+#EXTINF:-1 group-title="Украина",Lugaradio
+http://176.104.22.115:8000/192.mp3
+#EXTINF:-1 group-title="Украина",Lugaradio
+http://31.172.141.114:8002/128.mp3
+#EXTINF:-1 group-title="Украина",Mayak Alexandriya
+http://live.radiomayak.kr.ua:8000/mayak
+#EXTINF:-1 group-title="Украина",Mayak Dance Club
+http://live.radiomayak.kr.ua:8000/dance
+#EXTINF:-1 group-title="Украина",Mayak Rock
+http://live.radiomayak.kr.ua:8000/rock
+#EXTINF:-1 group-title="Украина",Melange.FM - Lounge Radio
+http://radio.melange.fm:8170/radio
+#EXTINF:-1 group-title="Украина",Melange.FM - Millennium
+http://radio.melange.fm:8130/radio
+#EXTINF:-1 group-title="Украина",Metalvoice
+http://www.metalvoice.net:8000/listen
+#EXTINF:-1 group-title="Украина",MFM STATION FIRST INTERNATIONAL RADIO
+http://radio.mfm.ua:8080/online128
+#EXTINF:-1 group-title="Украина",MiX-FM
+http://vtsu.org.ua:8000/vtsu-dance
+#EXTINF:-1 group-title="Украина",Mjoy - Urban space
+http://stream.mjoy.ua:8000/urban-space-radio
+#EXTINF:-1 group-title="Украина",Mjoy -xmas\Seasonal-Christmas
+http://stream.mjoy.ua:8000/radio-xmas
+#EXTINF:-1 group-title="Украина",MyRadio - 80s Disco
+http://music.myradio.ua/Disco128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Foreign Hits 90s
+http://music.myradio.ua/Hits90s_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Mikhail Krug
+http://music.myradio.ua/mihail-krug_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Retro
+http://music.myradio.ua/retro_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Russian Hits
+http://music.myradio.ua/Rus-pop_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Russian Hits 90s
+http://music.myradio.ua/russkie-hity-90-h_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Russian Rap
+http://music.myradio.ua/rep_news128.mp3
+#EXTINF:-1 group-title="Украина",MyRadio - Шансон
+http://music.myradio.ua/shanson_news128.mp3
+#EXTINF:-1 group-title="Украина",Nikvesti.fm
+http://nikvesti.fm:8000/live
+#EXTINF:-1 group-title="Украина",NRJ.ua - All Hits
+http://cast2.europaplus.ua/ep_hits
+#EXTINF:-1 group-title="Украина",NRJ.ua - Party Hits
+http://cast2.europaplus.ua/ep_dance
+#EXTINF:-1 group-title="Украина",NRJ.ua - Top 40
+http://cast2.europaplus.ua/ep_top
+#EXTINF:-1 group-title="Украина",Odessa-Mama
+http://85.238.103.118:8000/stream
+#EXTINF:-1 group-title="Украина",Old Fashioned Radio - Jazz &amp; Blues
+http://air.ofr.fm:8008/;stream.mp3
+#EXTINF:-1 group-title="Украина",Old Fashioned Radio - Radio Zemlya
+http://air.ofr.fm:8004/;stream.mp3
+#EXTINF:-1 group-title="Украина",Old Fashioned Radio - Rock
+http://air.ofr.fm:8012/;stream.mp3
+#EXTINF:-1 group-title="Украина",Old Fashioned Radio - Show &amp; Music
+http://91.239.232.234:8000/;stream.mp3
+#EXTINF:-1 group-title="Украина",OnAir 107,3 Fm Dipropetrovsk
+http://media.fregat.com:8000/RadioMIX
+#EXTINF:-1 group-title="Украина",Online Radio Российская поп-музыка [myRadio.ua]
+http://music.myradio.ua/Rus-pop128.mp3
+#EXTINF:-1 group-title="Украина",Online Radio Электро хаус
+http://music.myradio.ua:8000/Electro-House_news128.mp3
+#EXTINF:-1 group-title="Украина",ORadio AACp
+http://free.radioheart.ru:8000/oradio
+#EXTINF:-1 group-title="Украина",Party Hit Radio
+http://partyhitradio.com:8002/;stream.nsv
+#EXTINF:-1 group-title="Украина",Play FM 105.5 - Луганск
+http://91.103.122.30:10000/live-mp3
+#EXTINF:-1 group-title="Украина",Power FM 104 FM,Киев
+http://media2.brg.ua:8000/power_l
+#EXTINF:-1 group-title="Украина",PrimeMusic.FM
+http://185.65.244.53:8000/radio
+#EXTINF:-1 group-title="Украина",Prosto RadiO 128
+http://62.80.190.246:8000/ProstoRadiO128
+#EXTINF:-1 group-title="Украина",Psychic Radio Station
+http://stream.psyradio.com.ua:8000/64kbps
+#EXTINF:-1 group-title="Украина",Pulse Radio Ukraine
+http://listen.teploe.net:8100/pulsradio
+#EXTINF:-1 group-title="Украина",Rabinovich FM
+http://212.26.146.50:8000/rabin.mp3
+#EXTINF:-1 group-title="Украина",Radio ANTIPOP
+http://radio.antipop.ua/antipop
+#EXTINF:-1 group-title="Украина",Radio Arsi
+http://stream4.radiostyle.ru:8004/arsi-radio
+#EXTINF:-1 group-title="Украина",Radio Awerta
+http://195.189.227.16:8000/awerta
+#EXTINF:-1 group-title="Украина",Radio Bukovina
+http://91.209.24.188:8080/;stream.nsv
+#EXTINF:-1 group-title="Украина",Radio BumbleBee
+http://live.bumblebeefm.ru:8000/radio
+#EXTINF:-1 group-title="Украина",Radio BumbleBee
+http://live.bumblebeefm.ru:8000/radio
+#EXTINF:-1 group-title="Украина",Radio Max
+http://176.103.215.30:8000/RadioMax
+#EXTINF:-1 group-title="Украина",Radio Melange.FM - Radio 1
+http://radio.melange.fm:8110/radio
+#EXTINF:-1 group-title="Украина",Radio Melodia Children
+http://melodia.ipfm.net/RadioMelodia_Deti
+#EXTINF:-1 group-title="Украина",Radio Metal
+http://s3.radioheart.ru:8015/radio-metal
+#EXTINF:-1 group-title="Украина",Radio MFM Station Donetsk 91.2 FM
+http://radio.mfm.ua:8080/online128
+#EXTINF:-1 group-title="Украина",Radio One Ukraine 90-е
+http://134.249.132.156:8000
+#EXTINF:-1 group-title="Украина",Radio P.S.Lan.Com
+http://pslan.com:8000/;
+#EXTINF:-1 group-title="Украина",Radio Paralle
+http://music.myradio.ua:8000/pophit128.mp3?v=14
+#EXTINF:-1 group-title="Украина",Radio Relax Christmas
+http://online-radiorelax2.tavrmedia.ua/RadioRelax_Christmas
+#EXTINF:-1 group-title="Украина",Radio ROKS
+http://online-radioroks2.tavrmedia.ua/RadioROKS_32?type=.flv
+#EXTINF:-1 group-title="Украина",Radio ROKS
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Live
+#EXTINF:-1 group-title="Украина",Radio ROKS AC/DC
+http://online-radioroks2.tavrmedia.ua/RadioROKS_ACDC
+#EXTINF:-1 group-title="Украина",Radio ROKS Ballads
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Ballads
+#EXTINF:-1 group-title="Украина",Radio ROKS Beatles
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Beatles
+#EXTINF:-1 group-title="Украина",Radio ROKS Concert
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Concert
+#EXTINF:-1 group-title="Украина",Radio ROKS Hard'n'Heavy
+http://online-radioroks2.tavrmedia.ua/RadioROKS_HardnHeavy
+#EXTINF:-1 group-title="Украина",Radio ROKS KAMTUGEZA
+http://online-radioroks2.tavrmedia.ua/RadioROKS_KAMTUGEZA
+#EXTINF:-1 group-title="Украина",Radio ROKS Kiev 103.6 FM
+http://online-radioroks.tavrmedia.ua/RadioROKS
+#EXTINF:-1 group-title="Украина",Radio ROKS New Rock
+http://online-radioroks2.tavrmedia.ua/RadioROKS_NewRock
+#EXTINF:-1 group-title="Украина",Radio ROKS Queen
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Queen
+#EXTINF:-1 group-title="Украина",Radio ROKS Scorpions
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Scorpions
+#EXTINF:-1 group-title="Украина",Radio ROKS Ukrainian Rock
+http://online-radioroks2.tavrmedia.ua/RadioROKS_Ukr
+#EXTINF:-1 group-title="Украина",Radio Shanson Kiev 101.9 FM
+http://media2.brg.ua:8000/shanson_h
+#EXTINF:-1 group-title="Украина",Radio Station 103.2 FM
+http://91.205.207.98:8081/acc.mp3
+#EXTINF:-1 group-title="Украина",Radio SumDU
+http://radio.sumdu.edu.ua:8000/main
+#EXTINF:-1 group-title="Украина",Radio Tochka
+http://radio-tochka.com:7465/;
+#EXTINF:-1 group-title="Украина",Radio Zakarpattya FM Mukachevo101.9
+http://195.234.148.51:8000/;stream.mp3
+#EXTINF:-1 group-title="Украина",Radio Дабстеп
+http://music.myradio.ua/dubstep_news128.mp3
+#EXTINF:-1 group-title="Украина",Radio УХ Ternopil 101 FM
+http://online.uhradio.com.ua:8001/efir
+#EXTINF:-1 group-title="Украина",radio-beach
+http://listen2.myradio24.com:9000/1632
+#EXTINF:-1 group-title="Украина",RADIO-FITNES
+http://212.26.146.50:8000/fitnes.mp3?t=1456672120497
+#EXTINF:-1 group-title="Украина",Radio.Net
+http://radio.net.ua:8000/radionet
+#EXTINF:-1 group-title="Украина",RadioBengel
+http://195.211.111.98:3200
+#EXTINF:-1 group-title="Украина",RadioGrand.Net - House Stream
+http://house.radiogrand.net
+#EXTINF:-1 group-title="Украина",RadioGrand.Net - Trance Stream
+http://89.209.110.110:9000/trance
+#EXTINF:-1 group-title="Украина",RADIOHVILYA
+http://www.radiohvilya.com.ua:8000/radiohvilya
+#EXTINF:-1 group-title="Украина",RadioRelax Instrumental
+http://online-radiorelax2.tavrmedia.ua/RadioRelax_Instrumental
+#EXTINF:-1 group-title="Украина",RadioRelax Nature
+http://online-radiorelax2.tavrmedia.ua/RadioRelax_Nature
+#EXTINF:-1 group-title="Украина",RadioToma - ACID JAZZ
+http://radiotoma.com:8000/stream_128_054.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - BE BOP
+http://radiotoma.com:8000/stream_128_060.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - BOSSA NOVA
+http://radiotoma.com:8000/stream_128_058.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Classic Jazz
+http://radiotoma.com:8000/stream_128_051.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Country and Western
+http://radiotoma.com:8000/stream_128_026.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Detskaja Diskoteka
+http://radiotoma.com:8000/stream_128_081.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Disco 80
+http://radiotoma.com:8000/stream_128_007.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Disco 90
+http://radiotoma.com:8000/stream_128_009.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - DUB
+http://radiotoma.com:8000/stream_128_091.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - ELECTRO-JAZZ
+http://radiotoma.com:8000/stream_128_057.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - French Shanson
+http://radiotoma.com:8000/stream_128_080.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - FUNK JAZZ
+http://radiotoma.com:8000/stream_128_055.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - FUSION JAZZ
+http://radiotoma.com:8000/stream_128_053.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Humor
+http://radiotoma.com:8000/stream_128_004.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Italo-Disco
+http://radiotoma.com:8000/stream_128_078.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Latino (Ritmo Latino)
+http://radiotoma.com:8000/stream_128_066.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Made in USSR
+http://radiotoma.com:8000/stream_128_011.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Ne zabyvaj
+http://radiotoma.com:8000/stream_128_008.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Pleasant Music
+http://radiotoma.com:8000/stream_128_001.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Reggae
+http://radiotoma.com:8000/stream_128_029.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Romantic Jazz
+http://radiotoma.com:8000/stream_128_006.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Russian Pop
+http://radiotoma.com:8000/stream_128_024.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Russian Shanson
+http://radiotoma.com:8000/stream_128_025.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Salsa
+http://radiotoma.com:8000/stream_128_065.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - SMOOTH JAZZ
+http://radiotoma.com:8000/stream_128_052.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - SWING
+http://radiotoma.com:8000/stream_128_061.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Tango
+http://radiotoma.com:8000/stream_128_101.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - Viva Italia
+http://radiotoma.com:8000/stream_128_079.mp3
+#EXTINF:-1 group-title="Украина",RadioToma - World Pop
+http://radiotoma.com:8000/stream_128_093.mp3
+#EXTINF:-1 group-title="Украина",RadioTV FM\r.tk-union.tv\(Донецк, 90,5 FM)
+http://r.tk-union.tv:8000/stream
+#EXTINF:-1 group-title="Украина",Re: Радіо Країна
+http://185.65.245.34:8000/kiev
+#EXTINF:-1 group-title="Украина",Renaissance Radio 92.4 FM Kyiv Kiev
+http://217.20.164.163:8012/;stream.mp3
+#EXTINF:-1 group-title="Украина",Retro Romantic Ballads
+http://cast.radiogroup.com.ua:8000/retro_romantic
+#EXTINF:-1 group-title="Украина",RitmFM
+http://77.222.153.132:8000/live
+#EXTINF:-1 group-title="Украина",Sharmanka 104.0 Kiev
+http://217.20.164.170:8006/
+#EXTINF:-1 group-title="Украина",sokalfm96
+http://online.sokal.lviv.ua:8000/sokalfm96.mp3
+#EXTINF:-1 group-title="Украина",SUDAK.FM
+http://radio.sudak.fm:8000/radio
+#EXTINF:-1 group-title="Украина",SunFM Ukraine
+http://95.215.37.73:8000/stream_128
+#EXTINF:-1 group-title="Украина",svoeradio
+http://212.26.146.50:8000/cafe1.mp3?t=1456671205970
+#EXTINF:-1 group-title="Украина",TNTU - Heavy
+http://radio.tntu.edu.ua:8000/heavy
+#EXTINF:-1 group-title="Украина",TNTU - Jazz
+http://radio.tntu.edu.ua:8000/jazz
+#EXTINF:-1 group-title="Украина",TNTU - Ukr
+http://radio.tstu.edu.ua:8000/ukr
+#EXTINF:-1 group-title="Украина",Trance Century Radio
+http://31.184.236.6:8000/tcr192
+#EXTINF:-1 group-title="Украина",TRANCEISSTAR
+http://s5.radioboss.fm:8245/stream
+#EXTINF:-1 group-title="Украина",TrancEuphoria
+http://s2.radioheart.ru:8006/listen
+#EXTINF:-1 group-title="Украина",TriangleFM
+http://listen.trianglefm.com:8000/trianglefm
+#EXTINF:-1 group-title="Украина",UAFM
+http://live.uafm.org:9001/uafm
+#EXTINF:-1 group-title="Украина",VinRadio
+http://195.248.234.146:10000/radio3
+#EXTINF:-1 group-title="Украина",VLug Великий Луг
+http://80.254.0.8:12000/;
+#EXTINF:-1 group-title="Украина",VTSU-DANCE
+http://vtsu.org.ua:8000/vtsu-pop
+#EXTINF:-1 group-title="Украина",VTSU-POPSA
+http://vtsu.org.ua:8000/vtsu-pop
+#EXTINF:-1 group-title="Украина",Yoga Radio
+http://play.yogaradio.org.ua:8000/YOGAradio
+#EXTINF:-1 group-title="Украина",Zakarpattya FM
+http://195.234.148.51:8000/
+#EXTINF:-1 group-title="Украина",Zakhidny Polus
+http://online.1043.com.ua:8000/1043fm
+#EXTINF:-1 group-title="Украина",Zaporizja FM 103.7 MHz
+http://46.201.243.237:8000/fm-radio
+#EXTINF:-1 group-title="Украина",Zloe Radio
+http://stream.zloeradio.net:7000/radio
+#EXTINF:-1 group-title="Украина",ZлоЕ Rадио
+http://radio.hub.net.ua:8000/radio
+#EXTINF:-1 group-title="Украина",Авторадио
+http://cast.radiogroup.com.ua:8000/avtoradio
+#EXTINF:-1 group-title="Украина",Азовская Волна
+http://misato.ru-hoster.com:8005/stream
+#EXTINF:-1 group-title="Украина",Аккерман ФМ
+http://195.138.73.30:8000/;jsevents=true
+#EXTINF:-1 group-title="Украина",Аристократы
+http://air.aristocrats.fm:8000/live2
+#EXTINF:-1 group-title="Украина",АРМІЯ FM
+http://212.26.146.50:8000/warr.mp3
+#EXTINF:-1 group-title="Украина",Армянское
+http://Radio.YerevanNights.com/YerevanNights
+#EXTINF:-1 group-title="Украина",Бизнес Радио
+http://217.20.164.163:8016/;stream.nsv
+#EXTINF:-1 group-title="Украина",Вежа
+http://62.122.207.161:8000/VezhaFM
+#EXTINF:-1 group-title="Украина",Вести
+http://212.26.132.60:8000/vesti_mp3
+#EXTINF:-1 group-title="Украина",ВСРУ
+http://91.194.250.169:8000/ur4-mp3
+#EXTINF:-1 group-title="Украина",ГОЛОС СВОБОДИ
+http://holos.fm:8000/holos
+#EXTINF:-1 group-title="Украина",Голос Столицы
+http://cast.radiogroup.com.ua:8000/106fm
+#EXTINF:-1 group-title="Украина",Громадське радіо
+http://193.105.70.76:8000/stream?16
+#EXTINF:-1 group-title="Украина",Динамо Футбольний клуб
+http://cast.radiogroup.com.ua:8000/106fm
+#EXTINF:-1 group-title="Украина",Динамо Футбольний клуб
+Классное радио было, слушал трансляции когда не получалось посмотреть. Жаль, что закрыли.
+#EXTINF:-1 group-title="Украина",Донбасс FM
+http://193.109.166.6:8000/128
+#EXTINF:-1 group-title="Украина",Европа Плюс Киев
+http://217.20.182.177:8000/
+#EXTINF:-1 group-title="Украина",ЕКО радіо
+http://193.84.22.10:8000/;stream.nsv
+#EXTINF:-1 group-title="Украина",Еммануил-Светлое Радио
+http://online.svitle.org:6728/sre
+#EXTINF:-1 group-title="Украина",Ера Медіа FM
+http://212.26.129.2:8000/era96
+#EXTINF:-1 group-title="Украина",Є! Dance
+http://live.eradio.ua/e-dance_hi
+#EXTINF:-1 group-title="Украина",Є! Hit
+http://live.eradio.ua/e-hit_hi
+#EXTINF:-1 group-title="Украина",Є! Rock
+http://live.eradio.ua/e-rock_hi
+#EXTINF:-1 group-title="Украина",Є! UA
+http://live.eradio.ua/e-ua_hi
+#EXTINF:-1 group-title="Украина",Європейська Станція
+http://live.galaradio.com:8000/kiev
+#EXTINF:-1 group-title="Украина",Західний полюс
+http://online.1043.com.ua:8000/1043fm
+#EXTINF:-1 group-title="Украина",Казачье Радио - Стаханов, ЛНР
+http://37.143.13.77:8001/online
+#EXTINF:-1 group-title="Украина",Казачье Радио - Стаханов, ЛНР
+http://91.214.82.110:8002/online
+#EXTINF:-1 group-title="Украина",КАЛУШ FM
+http://195.182.22.130:8000/StreamOgg
+#EXTINF:-1 group-title="Украина",Карпати ФМ
+http://195.162.83.24:4040/;stream.mp3
+#EXTINF:-1 group-title="Украина",Київ
+http://217.76.201.26:8000
+#EXTINF:-1 group-title="Украина",Країна ФМ - Дрімайко
+http://live.radioec.com.ua:8000/drimayko
+#EXTINF:-1 group-title="Украина",Країна ФМ - Лірика
+http://185.65.245.34:8000/lyrica
+#EXTINF:-1 group-title="Украина",Країна ФМ - Ритмотека
+http://live.radioec.com.ua:8000/ritmoteka
+#EXTINF:-1 group-title="Украина",Країна ФМ - Рок
+http://live.radioec.com.ua:8000/rock
+#EXTINF:-1 group-title="Украина",Львівська хвиля
+http://ua.uar.net:8000/lwr
+#EXTINF:-1 group-title="Украина",Любимое радио 104.0fm  Киев
+http://myradio.com.ua:8000/sharmankafm128.mp3
+#EXTINF:-1 group-title="Украина",Люкс FM
+http://icecastlv.luxnet.ua/lux_mp3
+#EXTINF:-1 group-title="Украина",Мелодия
+http://online-radiomelodia.tavrmedia.ua/RadioMelodia
+#EXTINF:-1 group-title="Украина",Молоде радіо
+http://molode.com.ua:8128/;stream.nsv
+#EXTINF:-1 group-title="Украина",На хвилі Корсуня 104.8 FM — Рідне радіо
+http://195.66.65.146:8080/korsun
+#EXTINF:-1 group-title="Украина",Наше Радио
+http://cast.radiogroup.com.ua:8000/nashe
+#EXTINF:-1 group-title="Украина",Незалежність FM
+http://rad.radio-n.com:8000/
+#EXTINF:-1 group-title="Украина",НРКУ Всесвітня служба (Николаев, Радиоцентр Луч, 800 кВт)
+http://nrcu.gov.ua:8000/ur4-mp3-m
+#EXTINF:-1 group-title="Украина",НРКУ Перший канал - Одеса 70.52
+http://85.238.105.86:7052/UR-1_Odesa.mp3
+#EXTINF:-1 group-title="Украина",Одесса Мама
+http://online.odessa.fm:8000/stream
+#EXTINF:-1 group-title="Украина",Папино радио Донецк
+http://eu2.radioboss.fm:8201/stream
+#EXTINF:-1 group-title="Украина",Перец ФМ
+http://radio.urg.com.ua/radio-stilnoe
+#EXTINF:-1 group-title="Украина",Перший канал
+http://nrcu.gov.ua:8000/ur1-mp3-m
+#EXTINF:-1 group-title="Украина",посиделки у камина радио
+http://s03.volnorez.com:8000/live/3d2332e5d93deaf972fa9abe01897dbe73ef0
+#EXTINF:-1 group-title="Украина",Промінь
+http://nrcu.gov.ua:8000/ur2-mp3-m
+#EXTINF:-1 group-title="Украина",Просто Ради.О
+http://62.80.190.246:8000/PRK128
+#EXTINF:-1 group-title="Украина",Просто радио 105.3 FM,Одесса
+http://62.80.190.246:8000/ProstoRadiO128
+#EXTINF:-1 group-title="Украина",РАI
+http://online.rairadio.if.ua:8000/128Kbit.mp3
+#EXTINF:-1 group-title="Украина",радио  Антошка
+http://radio.capitalistmusic.com:8000/antoshka_65
+#EXTINF:-1 group-title="Украина",радио  ДНК
+http://air.dnkradio.com:8202/;stream.nsv
+#EXTINF:-1 group-title="Украина",Радио «Stels» - 100.9 FM Горловка\ДНР
+http://stelsfm.ru:8000/live
+#EXTINF:-1 group-title="Украина",Радио АТО
+http://212.26.146.50:8000/ato.mp3
+#EXTINF:-1 group-title="Украина",Радио ДурДом
+http://streaming.radionomy.com/durdom
+#EXTINF:-1 group-title="Украина",Радио Победа Луганск
+http://91.103.120.141:8000/;stream.mp3
+#EXTINF:-1 group-title="Украина",Радио Премьер
+http://91.121.210.98:8000/live
+#EXTINF:-1 group-title="Украина",радио Провинциальный городок
+http://pmradio.khrystynivka.com:9000/8524
+#EXTINF:-1 group-title="Украина",Радио ПЮРЕ
+http://air.puree.su:8018
+#EXTINF:-1 group-title="Украина",Радио Пятница
+http://cast.radiogroup.com.ua:8000/radiopyatnica
+#EXTINF:-1 group-title="Украина",Радио Шлягер Одесса 107,0 FM
+http://62.80.190.246:8000/sh256
+#EXTINF:-1 group-title="Украина",Радиостанция &quot;Ферумэрозия&quot;
+http://ferumerosion.bezpravil.org:8000/fe128
+#EXTINF:-1 group-title="Украина",Радіо &quot;Галактика&quot; 102.0 FM (Прилуки)
+http://194.242.102.93:8006
+#EXTINF:-1 group-title="Украина",Радіо &quot;Планета&quot; 102.8 FM (Прилуки)
+http://194.242.102.93:8002
+#EXTINF:-1 group-title="Украина",Радіо 24
+rtmp://stream2.luxnet.ua/radio24/_definst_mp4:radio24.stream
+#EXTINF:-1 group-title="Украина",Радіо Вольниця
+http://s6.radioheart.ru:8013/live
+#EXTINF:-1 group-title="Украина",Радіо ДЗВОНИ
+http://109.251.12.36:8000/;
+#EXTINF:-1 group-title="Украина",Радіо з Криївки +18
+http://stream.mjoy.ua:8000/radio-z-kryjivky
+#EXTINF:-1 group-title="Украина",Радіо Трек
+http://radio.rivne.net:8000/;stream.nsv
+#EXTINF:-1 group-title="Украина",РЕТРО FM
+http://cast.radiogroup.com.ua:8000/retro
+#EXTINF:-1 group-title="Украина",РЕТРО FM DANCE
+http://cast2.retro.ua/retro_dance
+#EXTINF:-1 group-title="Украина",РЕТРО FM ROMANTIC BALLADS
+http://cast2.retro.ua/retro_romantic
+#EXTINF:-1 group-title="Украина",РЕТРО FM RUSSIAN COLLECTION
+http://cast2.retro.ua/retro_russian
+#EXTINF:-1 group-title="Украина",Русское Радио
+http://online-rusradio.tavrmedia.ua/RusRadio_Live?type=.flv
+#EXTINF:-1 group-title="Украина",Сім'я і дім FM
+http://stream.simya.lutsk.ua:8000/sid_fm_96
+#EXTINF:-1 group-title="Украина",Сяйво
+http://stream.ntktv.ua:8000/syaivo.mp3
+#EXTINF:-1 group-title="Украина",ТАКТ
+http://radiotakt.com.ua:8000/takt.mp3?type=.flv
+#EXTINF:-1 group-title="Украина",Тиса FM
+rtmp://rtmp.turmedia.tv/live/tisafm
+#EXTINF:-1 group-title="Украина",ТРК Львівська хвиля
+http://ua.uar.net:8000/lwr
+#EXTINF:-1 group-title="Украина",Ух радіо
+http://online.uhradio.com.ua:8001/efir
+#EXTINF:-1 group-title="Украина",Хiт FM
+http://195.95.206.17:8000/HitFM_bak
+#EXTINF:-1 group-title="Украина",Хвиля Гір
+http://radio.inet.kim:8000
+#EXTINF:-1 group-title="Украина",Шансон
+http://217.20.164.170:8002/;stream.nsv&amp;type=mp3
+#EXTINF:-1 group-title="Украина",Шансон 101,9fm Киев
+http://myradio.com.ua:8000/shansonkievfm128.mp3
+#EXTINF:-1 group-title="Украина",Шарманка
+http://217.20.164.170:8004/;stream.nsv
+#EXTINF:-1 group-title="Украина",Шторм
+http://radio-shtorm.ru:8000/112
+#EXTINF:-1 group-title="Украина",Яскраве Радіо
+http://77.88.252.39:8000/yaskrave-128
