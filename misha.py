@@ -8,27 +8,34 @@ import random
 import datetime
 import webbrowser
 import subprocess
-from fuzzywuzzy import fuzz
-from urllib.request import urlopen
 import urllib
 import re
-from bs4 import BeautifulSoup as soup
 import base64
+import youtube_dl
+import googletrans
+import pyautogui as auto
+
+from bs4 import BeautifulSoup as soup
+from fuzzywuzzy import fuzz
+from urllib.request import urlopen
+from googletrans import Translator
 
 
 opts = {
 	"name":('майкл','миша','миха','михаил','мишаня'),
-	"tbr":('покажи мне','включи', 'открой', 'подруби', 'расскажи', 'найди'),
+	"tbr":('покажи мне','включи', 'открой', 'подруби', 'расскажи', 'найди', 'переведи'),
 	"cmds": {
 		"time":('сколько времени', 'который час','текущие время'),
 		"radio":('радио', 'шарманку'),
 		"joke":('анекдот', 'шутку', 'ржаку', 'прикол'),
-		"google":('гугл', 'google'),
+		"google":('информацию в гугле', 'google'),
 		"youtube":('youtube', 'ютуб'),
 		"git":('github', 'гитхаб'),
 		"mood":('шо ты', 'как дела', 'как ты', 'рассказывай как ты'),
 		"news":('новости', 'известия', 'события'),
-		"music":('музыку', 'музон', 'мелодию')
+		"music":('музыку', 'музон', 'мелодию'),
+		"translate":('слово', 'фразу', 'текст'),
+		"bye":('пока', 'бай', 'до встречи')
 	}
 }
 
@@ -93,8 +100,16 @@ def execute_cmd(cmd):
 		os.system(music_folder)
 		
 	elif cmd == 'google':
+		speak('Какую информацию мне искать?') 
+		r = sr.Recognizer()
+		with sr.Microphone(device_index=1) as source:
+			audio = r.listen(source)
+
+		query = r.recognize_google(audio, language="ru-RU")
+		info = query.lower()
+		webbrowser.open("https://www.google.com/search?client=firefox-b-d&q=" + info)
 		speak("Открываю гугл")
-		webbrowser.open("https://www.google.com/")
+		
 
 	elif cmd == 'youtube':
 		speak('Открываю ютуб')
@@ -109,11 +124,15 @@ def execute_cmd(cmd):
 		speak(random.choice(mymood))
 
 	elif cmd == 'joke':
-		myjoke = ['Рыба утонула',
-				  'Русалка села на шпагат',
-				  'Колобок повесился ']
-		speak(random.choice(myjoke))
-		speak("ха-ха-ха-ха")
+		mydarkjoke = ['Шутки про утопленников обычно несмешные, потому что лежат на поверхности.',
+						'У семьи каннибалов умер родственник. И грустно и вкусно.',
+						'Как быстрее всего прекратить спор глухих? — Выключить свет.',
+						'Акробат умер на батуте, но еще какое-то время продолжал радовать публику.',
+						'Мужик имел лошадь, а лошадь ничего не имела против.',
+						'Блоха голосовала на дороге. Хоть бы одна собака остановилась.',
+						'При аварии машин ФСБ и ФСО правила нарушились сами.',
+						'Ничто так не мешает радоваться жизни, как сама жизнь.']
+		speak(random.choice(mydarkjoke))
 
 	elif cmd == 'news':
 		news_url="https://news.google.com/rss?hl=ru&gl=UA&ceid=UA:ru"  
@@ -124,17 +143,40 @@ def execute_cmd(cmd):
 		news_list=soup_page.findAll("item")
 		for news in news_list[:5]: 
 			speak(news.title.text)
-		
 
 	elif cmd == 'music':
-		music_folder = 'C:/Users/Grinvalera/Python/voicerecorder/mus/'
-		files = os.listdir(music_folder)
-		random_music = music_folder + random.choice(files)
-		os.system(random_music)
-	
-	else:
-		speak("Команда не распознана")
+		speak('Какую песню мне включить?') 
+		r = sr.Recognizer()
+		with sr.Microphone(device_index=1) as source:
+			audio = r.listen(source)
 
+		query = r.recognize_google(audio, language="ru-RU")
+		mus = query.lower()
+		webbrowser.open('https://music.youtube.com/search?q=' + mus)
+		auto.sleep(3)
+		auto.click(460, 368)
+
+	elif cmd == 'translate':
+		speak('Говорите фразу на русском языке')
+		r = sr.Recognizer()
+		with sr.Microphone(device_index=1) as source:
+			audio = r.listen(source)
+
+		query = r.recognize_google(audio, language="ru-RU")
+		trans = query.lower()
+		print(trans)
+
+		translator = Translator()
+		result = translator.translate(trans, dest='en')
+		result1 = translator.translate(trans, dest='uk')
+		result2 = translator.translate(trans, dest='german')		
+		speak(result.text)
+		speak(result1.text)
+		speak(result2.text)
+
+	elif cmd == 'bye':
+		speak("До скорых встреч, хозяин!")
+		exit()
 
 #Запуск Миши
 r = sr.Recognizer()
