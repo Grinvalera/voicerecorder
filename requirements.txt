@@ -38,7 +38,7 @@ PyGetWindow==0.0.9
 pyglet==1.4.8
 pyinstaller==4.1
 pyinstaller-hooks-contrib==2020.10
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMsgBox==1.0.9
 pyowm==2.10.0
 pyperclip==1.8.1
